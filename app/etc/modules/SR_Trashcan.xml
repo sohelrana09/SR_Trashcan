@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SR_Trashcan>
+            <active>true</active>
+            <codePool>community</codePool>
+        </SR_Trashcan>
+    </modules>
+</config>

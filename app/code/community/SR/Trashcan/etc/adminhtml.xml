@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <trashcan module="trashcan">
+            <title>Trashcan</title>
+            <sort_order>100</sort_order>
+            <children>
+                <items module="trashcan">
+                    <title>Manage Trashcan</title>
+                    <sort_order>1</sort_order>
+                    <action>trashcan/adminhtml_trashcan</action>
+                </items>
+            </children>
+        </trashcan>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <SR_Trashcan>
+                        <title>Trashcan Module</title>
+                        <sort_order>1000</sort_order>
+                    </SR_Trashcan>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

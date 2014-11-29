@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <trashcan_adminhtml_trashcan_index>
+        <reference name="content">
+            <block type="trashcan/adminhtml_trashcan" name="adminhtml.trashcan" />
+        </reference>
+    </trashcan_adminhtml_trashcan_index>
+</layout>
