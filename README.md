@@ -9,5 +9,4 @@ Features
     Restore of products, including metadata and images
     100% open source
     No limitations, no extra costs
-    Quality code
 
